@@ -111,6 +111,11 @@ input[type="text"]
 
 }
 
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: #B3FFE2
+}
+
 /* Email Input End */
 
 /* Podcast Image Start */
@@ -122,7 +127,13 @@ position: relative;
 top: -58rem;
 right: -39rem;
 z-index: -1;
+background-image: url('/img/image-host.jpg');
+background-size: cover;
 
+}
+
+small-img {
+    display: none;
 }
 
 /* Podcast Image End */
@@ -145,3 +156,16 @@ z-index: -1;
 }
 
 /* Dots SVG Start */
+
+/* Tablet Media Queries Start */
+
+@media screen and (max-width: 768px) {
+    section {
+    margin-left: 5rem;
+}
+
+.content {
+    max-width: 63.5rem;
+}
+
+}
