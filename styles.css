@@ -124,30 +124,14 @@ section::after {
     content:"";
     display:block;
     background-image: url("./img/image-host.jpg");
-    max-height: 64rem;
-    max-width: 88.8;
+    height: 64rem;
+    width: 88.8;
     position: relative;
-    top: -58rem;
+    top: -68rem;
     right: -39rem;
     
 }
 
-/*
-.large-img {
-max-height: 64rem;
-max-width: 88.8;
-position: relative;
-top: -58rem;
-right: -39rem;
-z-index: -1;
-background-image: url('/img/image-host.jpg');
-
-}
-*/
-
-small-img {
-    display: none;
-}
 
 /* Podcast Image End */
 
@@ -164,8 +148,9 @@ small-img {
 
 .dots {
     position: relative;
-    top: -63.3rem;
+    top: 1rem;
     right: -103rem;
+    z-index: 99;
 }
 
 /* Dots SVG Start */
