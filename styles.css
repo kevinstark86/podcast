@@ -120,6 +120,19 @@ input[type="text"]
 
 /* Podcast Image Start */
 
+section::after {
+    content:"";
+    display:block;
+    background-image: url("./img/image-host.jpg");
+    max-height: 64rem;
+    max-width: 88.8;
+    position: relative;
+    top: -58rem;
+    right: -39rem;
+    
+}
+
+/*
 .large-img {
 max-height: 64rem;
 max-width: 88.8;
@@ -128,9 +141,9 @@ top: -58rem;
 right: -39rem;
 z-index: -1;
 background-image: url('/img/image-host.jpg');
-background-size: cover;
 
 }
+*/
 
 small-img {
     display: none;
